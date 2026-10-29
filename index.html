@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gestor de Notas Accesible</title>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <main class="contenedor">
+      <header class="encabezado">
+        <h1>Mis Notas</h1>
+        <p class="subtitulo">Organiza tus tareas diarias de forma accesible.</p>
+      </header>
+
+      <form id="formulario-notas" novalidate>
+        <fieldset>
+          <legend>Crear nueva nota</legend>
+
+          <div class="campo">
+            <label for="titulo-nota">Título de la nota</label>
+            <input
+              type="text"
+              id="titulo-nota"
+              name="titulo"
+              required
+              placeholder="Ej. Compras de la semana"
+            />
+          </div>
+
+          <div class="campo">
+            <label for="contenido-nota">Detalle de la nota</label>
+            <textarea
+              id="contenido-nota"
+              name="contenido"
+              required
+              placeholder="Escribe el contenido aquí..."
+            ></textarea>
+          </div>
+        </fieldset>
+
+        <div class="acciones">
+          <button type="submit" id="btn-guardar" class="btn btn-principal">
+            Guardar nota
+          </button>
+          <button type="reset" id="btn-limpiar" class="btn btn-secundario">
+            Limpiar campos
+          </button>
+        </div>
+
+        <div id="contenedor-mensaje" aria-live="polite">
+          <p id="mensaje" role="status" class="mensaje"></p>
+        </div>
+      </form>
+
+      <section class="seccion-notas">
+        <h2>Lista de notas</h2>
+        <div id="lista-notas" class="grid-notas">
+          <!-- Las notas se cargan dinámicamente -->
+        </div>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
