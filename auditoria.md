@@ -33,11 +33,13 @@ Este documento registra la auditoría de usabilidad, accesibilidad y leyes cogni
 
 ---
 
+## 4. Auditoría de Accesibilidad con Lighthouse
+
 ### Estado Inicial (Antes del Rediseño)
 
 - **Puntaje de Accesibilidad:** **78 / 100**
 
-![Lighthouse Antes](img/02-lighthouse-antes.png)
+![Lighthouse Antes](img/02-lighthouse-antes.jpg)
 
 ---
 
