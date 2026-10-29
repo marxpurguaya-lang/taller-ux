@@ -37,8 +37,6 @@ Este documento registra la auditoría de usabilidad, accesibilidad y leyes cogni
 
 ### Estado Inicial (Antes del Rediseño)
 
-### Estado Inicial (Antes del Rediseño)
-
 - **Puntaje de Accesibilidad:** **78 / 100**
 
 <img src="img/02-lighthouse-antes.jpg" alt="Lighthouse Antes" width="100%">
